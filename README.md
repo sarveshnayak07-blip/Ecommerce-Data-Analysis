@@ -93,6 +93,3 @@ Ecommerce-Data-Analysis/
 └── .gitignore
 ```
 
-## 👨‍💻 Author
-
-Shravan Nayak
