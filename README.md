@@ -4,7 +4,7 @@
 
 This project analyzes an e-commerce dataset to understand sales performance, customer segments, product performance, and sales trends.
 
-The analysis was performed using Python and Pandas with data visualization.
+The analysis was performed using Python, Pandas, NumPy, and Matplotlib in Jupyter Notebook.
 
 ## 🎯 Objectives
 
@@ -13,6 +13,8 @@ The analysis was performed using Python and Pandas with data visualization.
 - Understand customer segments
 - Analyze sales across cities
 - Study monthly sales trends
+- Examine order status and payment methods
+- Create meaningful data visualizations
 
 ## 📊 Dataset
 
@@ -30,6 +32,10 @@ Key information includes:
 - Customer segments
 - Cities
 
+**Dataset file:** `clean_final_data.csv`
+
+Place the CSV file in the same folder as the notebook before running the analysis. If you share or redistribute the dataset, follow its original licence and terms.
+
 ## 📈 Key Results
 
 - **Total Sales:** 3,444,830
@@ -45,13 +51,48 @@ Key information includes:
 - Pandas
 - NumPy
 - Matplotlib
-- Seaborn
-- Kaggle Notebook
+- Jupyter Notebook
 
-## 📁 Project Files
+## 🚀 How to Run the Project
+
+### 1. Install Python
+
+Install Python 3 if it is not already installed.
+
+### 2. Download the Project
+
+Download or clone this GitHub repository.
+
+### 3. Install Dependencies
+
+Open Command Prompt in the project folder and run:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Add the Dataset
+
+Place `clean_final_data.csv` in the same folder as `Ecommerce_Data_Analysis.ipynb`.
+
+### 5. Start Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Open `Ecommerce_Data_Analysis.ipynb` in your browser and run the notebook cells from top to bottom.
+
+## 📁 Project Structure
 
 ```text
 Ecommerce-Data-Analysis/
-│
 ├── Ecommerce_Data_Analysis.ipynb
-└── README.md
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+## 👨‍💻 Author
+
+Shravan Nayak
